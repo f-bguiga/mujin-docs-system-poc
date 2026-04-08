@@ -31,7 +31,7 @@ theme:
     - search.suggest
     - search.highlight
 
-# 🧩 Plugins (The Validated Automation Engine)
+# 🧩 Plugins
 plugins:
   - search
   - mkdocstrings:
@@ -41,7 +41,6 @@ plugins:
           options:
             show_source: true
             show_root_heading: true
-            import_outline_sidebar: true
   - i18n:
       languages:
         - locale: en
@@ -66,7 +65,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# 🗺️ Navigation
+# 🗺️ Navigation (Updated to include all pages)
 nav:
   - Home: index.md
   - ⚠️ Safety & Compliance: 
@@ -75,3 +74,5 @@ nav:
       - Physical Installation: operator/hardware-setup.md
   - 💻 Developer Portal:
       - API & SDK Reference: developer/api-overview.md
+  - 📏 Governance:
+      - Style Guide: style-guide.md
