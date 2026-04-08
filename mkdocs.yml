@@ -43,13 +43,14 @@ plugins:
             show_root_heading: true
             import_outline_sidebar: true
   - i18n:
-      default_language: en
       languages:
         - locale: en
           name: English
           default: true
+          build: true
         - locale: ja
           name: 日本語
+          build: true
       nav_translations:
         ja:
           Home: ホーム
