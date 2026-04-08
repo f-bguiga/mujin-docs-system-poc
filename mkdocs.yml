@@ -3,10 +3,10 @@ site_description: System Architecture & Automation PoC for Lead Documentation En
 site_author: Your Name
 site_url: https://yourusername.github.io/mujin-docs-system-poc
 
-# 🎨 Theme Configuration (The "Professional Look")
+# 🎨 Theme Configuration
 theme:
   name: material
-  language: en
+  language: en  # The i18n plugin will use this as the base
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -23,41 +23,56 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs          # Top-level persona-based navigation
-    - navigation.sections      # Sidebar organization
-    - navigation.expand        # Keep sidebar accessible
-    - content.code.copy        # Critical for Developer Experience (DX)
-    - content.code.annotate    # Allows explaining code lines in-line
-    - search.suggest           # High-end search behavior
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
     - search.highlight
 
-# 🧩 Plugins (The "Automation Engine")
+# 🧩 Plugins (The Merged Automation Engine)
 plugins:
   - search
-  - mkdocstrings:              # Auto-generates API docs from Python source
+  - mkdocstrings:
       handlers:
         python:
-          paths: [.]           # Tells the plugin to look in the root for the /src folder
+          paths: [.] 
           options:
             show_source: true
             show_root_heading: true
             import_outline_sidebar: true
+  - i18n:
+      default_language: en
+      languages:
+        en: 
+          name: English
+          build: true
+        ja: 
+          name: 日本語
+          build: true
+      nav_translations:
+        ja:
+          Home: ホーム
+          "⚠️ Safety & Compliance": "安全とコンプライアンス"
+          "🏭 Industrial Operator Guide": "オペレーターガイド"
+          "💻 Developer Portal": "開発者ポータル"
 
-# 📝 Markdown Extensions (The "Industrial Formatting")
+# 📝 Markdown Extensions
 markdown_extensions:
-  - admonition                 # Required for !!! danger, !!! warning blocks
-  - pymdownx.details           # Collapsible blocks
-  - pymdownx.superfences       # Advanced code block nesting
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets          # Allows re-using text snippets across docs
+  - pymdownx.snippets
   - toc:
-      permalink: true          # Adds "anchor" links to headings for easy sharing
+      permalink: true
 
-# 🗺️ Navigation (The "Information Architecture")
+# 🗺️ Navigation
 nav:
   - Home: index.md
   - ⚠️ Safety & Compliance: 

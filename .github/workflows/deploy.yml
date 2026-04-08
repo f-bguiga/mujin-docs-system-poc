@@ -21,6 +21,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install mkdocs-material mkdocstrings[python] mkdocs-minify-plugin
+          pip install mkdocs-material mkdocstrings[python] mkdocs-minify-plugin mkdocs-static-i18n
 
       - name: Run Vale Prose Linter
         uses: errata-ai/vale-action@v2
