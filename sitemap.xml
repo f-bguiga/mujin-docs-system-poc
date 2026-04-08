@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/style-guide/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/style-guide/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/style-guide/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/developer/api-overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/developer/api-overview/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/developer/api-overview/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/ja/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/ja/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/ja/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/operator/hardware-setup/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/operator/hardware-setup/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/operator/hardware-setup/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/safety/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/safety/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/safety/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/ja/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/ja/style-guide/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/style-guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/style-guide/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/ja/developer/api-overview/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/developer/api-overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/developer/api-overview/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/ja/ja/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/ja/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/ja/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/ja/operator/hardware-setup/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/operator/hardware-setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/operator/hardware-setup/"/>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/mujin-docs-system-poc/ja/safety/</loc>
+        <lastmod>2026-04-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://yourusername.github.io/mujin-docs-system-poc/ja/safety/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yourusername.github.io/mujin-docs-system-poc/safety/"/>
+    </url>
+</urlset>
