@@ -21,6 +21,13 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install mkdocs-material mkdocstrings[python] mkdocs-minify-plugin
-
+      
+          - name: Run Vale Prose Linter
+          uses: errata-ai/vale-action@v2
+          with:
+            files: docs/
+          env:
+            GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+                
       - name: Build and Deploy
         run: mkdocs gh-deploy --force
