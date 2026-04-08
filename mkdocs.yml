@@ -1,0 +1,21 @@
+site_name: MujinOS Documentation Portal
+site_description: System Architecture Proof of Concept for Lead Doc Engineer Role
+
+theme:
+  name: material
+  palette: 
+    primary: indigo # Professional, "Industrial Tech" feel
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - ⚠️ Safety & Compliance: 
+    - safety/index.md
+  - 🏭 Industrial Operator Guide:
+    - operator/hardware-setup.md
+  - 💻 Developer Portal:
+    - developer/api-overview.md
