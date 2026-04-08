@@ -1,16 +1,28 @@
 # MujinMI API Overview
 
-MujinMI (Machine Intelligence) provides a RESTful API and a Python SDK to control motion planning.
+The **MujinMI (Machine Intelligence)** API is the primary gateway for developers to interact with the MujinOS environment. It allows for high-level motion planning, real-time perception queries, and robot state management.
 
-### Authentication
-All requests must include an `X-Mujin-API-Key` in the header.
+## 🔑 Authentication
 
-### Sample Request: Get Joint States
+All API requests must be authenticated. When using the Python SDK, provide your API key during controller initialization.
+
+* **Header:** `X-Mujin-API-Key`
+* **Scope:** Ensure your key has `Write` permissions for motion commands.
+
+---
+
+## 🚀 Quick Start: Python SDK
+
+The easiest way to get started is by using our native Python wrapper. It abstracts the underlying REST/gRPC calls into simple method signatures.
+
 ```python
 import mujin_sdk
 
-controller = mujin_sdk.Controller(ip="192.168.1.100")
-robot = controller.get_robot("primary_arm")
+# Initialize the controller
+controller = mujin_sdk.Controller(
+    ip="192.168.1.100", 
+    api_key="your_secret_key"
+)
 
-# Retrieve real-time joint positions
-print(robot.get_joint_states())
+# Access a specific robotic arm
+robot = controller.get_robot("primary_arm")
