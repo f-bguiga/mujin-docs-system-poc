@@ -6,7 +6,7 @@ site_url: https://yourusername.github.io/mujin-docs-system-poc
 # 🎨 Theme Configuration
 theme:
   name: material
-  language: en  # The i18n plugin will use this as the base
+  language: en 
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -31,7 +31,7 @@ theme:
     - search.suggest
     - search.highlight
 
-# 🧩 Plugins (The Merged Automation Engine)
+# 🧩 Plugins (The Corrected Automation Engine)
 plugins:
   - search
   - mkdocstrings:
@@ -45,12 +45,11 @@ plugins:
   - i18n:
       default_language: en
       languages:
-        en: 
+        - locale: en
           name: English
-          build: true
-        ja: 
+          default: true
+        - locale: ja
           name: 日本語
-          build: true
       nav_translations:
         ja:
           Home: ホーム
