@@ -31,7 +31,7 @@ theme:
     - search.suggest
     - search.highlight
 
-# 🧩 Plugins (The Corrected Automation Engine)
+# 🧩 Plugins (The Validated Automation Engine)
 plugins:
   - search
   - mkdocstrings:
@@ -51,12 +51,6 @@ plugins:
         - locale: ja
           name: 日本語
           build: true
-      nav_translations:
-        ja:
-          Home: ホーム
-          "⚠️ Safety & Compliance": "安全とコンプライアンス"
-          "🏭 Industrial Operator Guide": "オペレーターガイド"
-          "💻 Developer Portal": "開発者ポータル"
 
 # 📝 Markdown Extensions
 markdown_extensions:
